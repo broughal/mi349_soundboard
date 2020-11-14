@@ -1,5 +1,5 @@
 var = buttonElement = document.getElementById('first-button")
 
-buttonElement.addEventListener('click", function () {
+buttonElement.addEventListener('click', 'mouseenter', function () {
     console.log('I was clicked!')
 })
