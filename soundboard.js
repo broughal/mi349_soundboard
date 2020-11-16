@@ -1,17 +1,17 @@
-var clip = document.getElementById("buttonOne");
+var x = document.getElementById("buttonOne");
                                    
     function playAudio() {                                 
-        clip.play();
+        x.play();
     }
 
-var clip = document.getElementById("buttonTwo");
+var x = document.getElementById("buttonTwo");
                                    
     function playAudio() {                                 
-        clip.play();
+        x.play();
     }
 
-var clip = document.getElementById("buttonThree");
+var x = document.getElementById("buttonThree");
                                    
     function playAudio() {                                 
-        clip.play();
+        x.play();
     }
