@@ -1,4 +1,4 @@
-var clip = document.getElementById("button");
+var clip = document.getElementById("buttonTwo");
                                    
     function playAudio() {                                 
         clip.play();
