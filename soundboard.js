@@ -1,10 +1,17 @@
-var = buttonElement = document.getElementById('first-button")
 
-buttonElement.addEventListener('click', 'mouseenter', function () {
-    console.log('I was clicked!')
-})
+var x = document.getElementById("buttonOne");
+                                   
+function playAudio() {                                 
+    x.play();
+}
+var x = document.getElementById("buttonTwo");
+                                   
+function playAudio() {                                 
+    x.play();
+}
 
-
-function soundOne() {
-    
+var x = document.getElementById("buttonThree");
+                                   
+function playAudio() {                                 
+    x.play();
 }
