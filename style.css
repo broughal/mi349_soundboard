@@ -18,4 +18,5 @@ html {
 button {
     background-color: yellow;
     border-top: 1px dotted #ccc;  
+    padding: 10px;
 }
