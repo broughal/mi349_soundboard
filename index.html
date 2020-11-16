@@ -9,19 +9,19 @@
 
 <body> 
 
-<audio id="button">
+<audio id="buttonOne">
   <source src="bikebell.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 <button onclick="playAudio()" type="button">Bike Bell</button>    
    
-<audio id="button">
+<audio id="buttonTwo">
   <source src="carhorn.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 <button onclick="playAudio()" type="button">Car Horn</button>    
     
-<audio id="button">
+<audio id="buttonThree">
   <source src="cymbals.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
@@ -29,11 +29,27 @@
                  
                                               
 <script>
-    var x = document.getElementById("button");
+    var x = document.getElementById("buttonOne");
                                    
     function playAudio() {                                 
         x.play();
     }
-</script>                                               
+</script> 
+    
+<script>
+    var x = document.getElementById("buttonTwo");
+                                   
+    function playAudio() {                                 
+        x.play();
+    }
+</script>
+    
+<script>
+    var x = document.getElementById("buttonThree");
+                                   
+    function playAudio() {                                 
+        x.play();
+    }
+</script>    
 </body>
 </html>   
