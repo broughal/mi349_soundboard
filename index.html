@@ -9,7 +9,7 @@
 
 <body> 
 <section id="buttonOne">
-    <audio id="buttonAudio">
+    <audio id="buttonOne">
         <source src="bikebell.mp3" type="audio/mpeg">
         </audio>
         <button click="playAudio()" type="button">Play Audio</button>
@@ -22,7 +22,13 @@
 <button id="third-button">
     Button 3!
 </button>    
-    
-    
+                         
+<script>
+    var x = document.getElementById("buttonOne");
+                                   
+    function playAudio() {                                 
+        x.play();
+    }
+                                               
     </body>
 </html>   
