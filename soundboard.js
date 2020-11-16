@@ -1,5 +1,5 @@
 
-var one = document.getElementById("buttonOne");
+var one = document.getElementById("buttonOne")("buttonTwo")("buttonThree");
                                    
     function playAudio() {                                 
         one.play();
