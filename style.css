@@ -8,17 +8,7 @@ h1 {
 
 
 
-buttonOne {
+button {
     background-color: yellow;
     border-top: 1px dotted #ccc;  
-}
-
-buttonTwo {
-    background-color: green;
-
-}
-
-buttonThree {
-    background-color: blue;
-  
 }
