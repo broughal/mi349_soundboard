@@ -17,5 +17,3 @@ function playAudio() {
     z.play();
 }
 
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Buttons!';
