@@ -1,4 +1,9 @@
-
+body {
+  font-family: Arial, Helveticam, sans-seriff;
+  margin: 40px;
+  padding: 40px;
+  color: #242424;
+}
 
 
 h1 {
