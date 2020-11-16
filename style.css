@@ -2,12 +2,13 @@
 
 
 h1 {
-  font-size: 4em;
-  margin: 0.5;
+    font-size: 4em;
+    margin: 0.5;
 }
 
 
 
-#buttonOne {
-  border-top: 1px dotted #ccc;
+button {
+    background-color: yellow;
+    border-top: 1px dotted #ccc;  
 }
