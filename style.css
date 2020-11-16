@@ -5,6 +5,12 @@ body {
   color: #242424;
 }
 
+button {
+    background-color: yellow;
+    border-top: 1px dotted #ccc;
+    margin: 4px;
+    padding: 7px;
+}
 
 h1 {
     font-size: 4em;
@@ -15,9 +21,6 @@ html {
   background: #e3e3e3;
 }
 
-button {
-    background-color: yellow;
-    border-top: 1px dotted #ccc;
-    margin: 4px;
-    padding: 7px;
+section {
+  display: flex;
 }
