@@ -8,22 +8,29 @@
 </head>
 
 <body> 
-<section id="buttonOne">
-    <audio id="buttonOne">
-        <source src="bikebell.mp3" type="audio/mpeg">
-        </audio>
-        <button click="playAudio()" type="button">Play Audio</button>
-    <button mouseenter="playAudio()" type="button>Play Audio</button>
-</section>    
-<button id="second-button">
-    Button 2!
+
+<button id="first-button">
+    <audio
+        controls
+        src="bikebell.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
 </button>        
-    
+
+<button id="second-button">
+    <audio
+        controls
+        src="carhorn.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</button>         
           
 <button id="third-button">
     <audio
         controls
-        src="bikebell.mp3">
+        src="cymbals.mp3">
             Your browser does not support the
             <code>audio</code> element.
     </audio>
