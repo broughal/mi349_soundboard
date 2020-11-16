@@ -1,19 +1,19 @@
 
-var x = document.getElementById("buttonOne");
+var one = document.getElementById("buttonOne");
                                    
 function playAudio() {                                 
-    x.play();
+    one.play();
 }
 
-var y = document.getElementById("buttonTwo");
+var two = document.getElementById("buttonTwo");
                                    
 function playAudio() {                                 
-    y.play();
+    two.play();
 }
 
-var z = document.getElementById("buttonThree");
+var three = document.getElementById("buttonThree");
                                    
 function playAudio() {                                 
-    z.play();
+    three.play();
 }
 
